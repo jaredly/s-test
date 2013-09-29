@@ -3,11 +3,12 @@
     "id": "custom",
     "enabled": true,
     "config": {
-      "prepare": "echo 'hello'"
+      "prepare": "echo 'hello'",
+      "cleanup": "echo 'cleanup'"
     }
   }, {
     "id": "node",
-    "enabled": false,
+    "enabled": true,
     "config": {
       "test": "make test"
     }
