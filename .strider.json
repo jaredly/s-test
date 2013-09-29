@@ -7,6 +7,12 @@
       "cleanup": "echo 'cleanup'"
     }
   }, {
+    "id": "nonexistent",
+    "enabled": true,
+    "config": {
+      "test": "make test"
+    }
+  }, {
     "id": "node",
     "enabled": true,
     "config": {
