@@ -1,0 +1,18 @@
+{
+  "plugins": [{
+    "id": "custom",
+    "enabled": true,
+    "config": {
+      "prepare": "echo 'hello'"
+    }
+  }, {
+    "id": "node",
+    "enabled": false,
+    "config": {
+      "test": "make test"
+    }
+  }],
+  "runner": {
+    "id": "simple-runner"
+  }
+}
