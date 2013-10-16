@@ -1,0 +1,5 @@
+{
+"scripts": {
+"test": "echo 'from pckage.json'; exit 1"
+}
+}
