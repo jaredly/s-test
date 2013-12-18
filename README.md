@@ -5,4 +5,4 @@ Testing strider
 
 So far only strider-node is really tested.
 
-And now I'm doing some testing of strider-github-status
+And now I'm doing some testing of strider-github-status. And it looks pretty solid.
